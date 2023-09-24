@@ -2,22 +2,15 @@
 <html>
 <head>
     <title>Login Page</title>
-   
-</head>
-<body>
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Login Page</title>
     <link rel="stylesheet" href="style.css">
-    
    
+  
 </head>
 <body>
     <h1>Login</h1>
     <p>login using social networks</p>
     <div class="container">
-       
+      
         <a class="social" href="https://www.google.com" target="_blank">
             <img class="social-icon" src="http://pluspng.com/img-png/google-photos-logo-png-google-400.png" alt="google logo">
         </a>
@@ -32,22 +25,22 @@
         <form id="login-form">
                 <form action="login.php" method="POST">
                     <label class="username"for="username"></label>
-                    <input type="text" id="username" name="username" placeholder="username"><br><br>
+                    <input type="text" id="username" name="username" placeholder="username" class="l-placeholder"><br><br>
                     <label class="password" for="password"></label>
-                    <input type="password" id="password" name="password" placeholder="password"><br><br>
+                    <input type="password" id="password" name="password" placeholder="password" class="l-placeholder"><br><br>
                     <button class="login" type="submit">Login</button>
+           
                 <p>Don't have an account?</p>
                     <a href="signup.html">Sign Up</a></p>
                 </form>
+           
     </div>
 </body>
-</html>
-    </div>
-</body>
-    <style>
-       .container{
+<style>
+.container{
     display:flex;
     align:center 30px;
+    background-size: cover;
 }
 .social-icon {
     align-items:center;
@@ -69,18 +62,23 @@ font-size: 64px;
 font-style: normal;
 font-weight: 800;
 line-height: normal;
+
 }
-form{ 
-    font-size:23px;
+form{
+    font-size:25px;
     margin-top:100px;
+    
 }
 body {
 background-image: url(https://wallpaperaccess.com/full/2788795.jpg);
-padding:50px;
+background-size:cover;
+
+padding:100px;
 align-content:center;
-}   
+}  
 div{
     text-align:center;
+    background-size: cover;
 }
 
 .login{
@@ -91,12 +89,12 @@ div{
     border-radius: 50px;
     background: lightskyblue;
     padding:349px, 760px, 1163px, 263px;
-
-
+    font-size: 25px;
 }
 p{
-    font-size:x-large;
+    font-size:25px;
     padding: -10px;
+    
 }
 
 input {
@@ -105,11 +103,14 @@ input {
     border: white;
     border-radius: 50px;
     background-color: rgba(255, 255, 255, 0.5);
+   
+   
 }
 .l-placeholder{
     font-size: 25px; 
     padding: 18px;
     width:300px
+   
 }
-    </style>
+</syle>
 </html>
