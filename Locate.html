@@ -1,0 +1,111 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Let's Find Your Pick Up Location</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Let's Find Your Ideal Car</h1>
+  </header>
+  <main>
+    <div class="container">
+      <form action="#">
+        <label for="pickup_location">Pickup Location</label>
+        <select name="pickup_location">
+            <option value="">Select</option>  
+            <option value="delhi">Delhi</option>
+            <option value="himachal_pradesh">Himachal Pradesh</option>
+            <option value="haryana">Haryana</option>
+            <option value="punjab">Punjab</option>
+            <option value="other">Other</option>
+          </select>
+  
+        <label for="pickup_date">Pickup Date</label>
+        <input type="date" id="pickup_date">
+        <label for="pickup_time">Pickup Time</label>
+        <input type="time" id="pickup_time">
+        <label for="dropoff_date">Dropoff Date</label>
+        <input type="date" id="dropoff_date">
+        <label for="purpose_of_rental">Purpose of Rental</label>
+        <select name="purpose_of_rental">
+          <option value="">Select</option>  
+          <option value="business_and_leisure">Business & Leisure</option>
+          <option value="personal">Personal</option>
+          <option value="other">Other</option>
+        </select>
+
+        <button type="submit">Search</button>
+      </form>
+    </div>
+  </main>
+  <footer>
+    <p> &copy; King's Car Rental Services 2023-24 </p>
+  </footer>
+</body>
+<style>
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: gray;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+main {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.container {
+  padding: 20px;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input,
+select {
+  width: 50%;
+  padding: 10px;
+  border: 2px solid aquamarine;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+footer {
+  text-align: center;
+  margin-top: 20px;
+}
+
+p {
+  font-size: 15px;
+}
+button:hover {
+    background-color: blueviolet;
+}
+</style>
+</html>
