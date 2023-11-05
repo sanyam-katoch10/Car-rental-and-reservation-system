@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="style.css">
+   
+  
+</head>
+<body>
+    <h1>Login</h1>
+    <p>login using social networks</p>
+    <div class="container">
+      
+        <a class="social" href="https://www.google.com" target="_blank">
+            <img class="social-icon" src="http://pluspng.com/img-png/google-photos-logo-png-google-400.png" alt="google logo">
+        </a>
+        <a class="social" href="https://www.facebook.com" target="_blank">
+            <img class="social-icon" src="https://www.mmppicture.co.in/wp-content/uploads/2021/03/Facebook-Icon-PNG-31-768x768.png" alt="Facebook Logo">
+        </a>
+        <a class="social" href="https://www.twitter.com" target="_blank">
+            <img class="social-icon" src="http://icons.iconarchive.com/icons/tinylab/android-lollipop-apps/128/Twitter-icon.png" alt="twitter logo">
+        </a>
+        </div>
+<p>----------------or-------------------</p>
+        <form id="login-form">
+                <form action="login.php" method="POST">
+                    <label class="username"for="username"></label>
+                    <input type="text" id="username" name="username" placeholder="username" class="l-placeholder"><br><br>
+                    <label class="password" for="password"></label>
+                    <input type="password" id="password" name="password" placeholder="password" class="l-placeholder"><br><br>
+                    <button class="login" type="submit">Login</button>
+           
+                <p>Don't have an account?</p>
+                    <a href="signup.html">Sign Up</a></p>
+                </form>
+           
+    </div>
+</body>
+<style>
+.container{
+    display:flex;
+    align:center 30px;
+    background-size: cover;
+}
+.social-icon {
+    align-items:center;
+    margin:10px;
+    width:60px;
+    height:70px;
+    flex-shrink:0;
+    padding: 2px;
+}
+h1{
+width: 307px;
+height: 64px;
+flex-shrink: 0;
+text-align: center;
+color: #000;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.50);
+font-family: Inter;
+font-size: 64px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+
+}
+form{
+    font-size:25px;
+    margin-top:100px;
+    
+}
+body {
+background-image: url(https://wallpaperaccess.com/full/2788795.jpg);
+background-size:cover;
+overflow:hidden;
+padding:100px;
+align-content:center;
+}  
+div{
+    text-align:center;
+    background-size: cover;
+}
+
+.login{
+    color: #000;
+    font-style: italic;
+    font-weight: 500;
+    line-height: normal;
+    border-radius: 50px;
+    background: lightskyblue;
+    padding:349px, 760px, 1163px, 263px;
+    font-size: 25px;
+}
+p{
+    font-size:25px;
+    padding: -10px;
+    
+}
+
+input {
+    width: 20%;
+    padding: 10px;
+    border: white;
+    border-radius: 50px;
+    background-color: rgba(255, 255, 255, 0.5);
+   
+   
+}
+.l-placeholder{
+    font-size: 25px; 
+    padding: 18px;
+    width:300px
+   
+}
+</style>
+</html>
