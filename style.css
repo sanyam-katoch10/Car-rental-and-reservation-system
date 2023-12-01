@@ -131,7 +131,7 @@
   .btn {
     position: relative;
     background: var(--background, var(--slate-blue));
-    color: var(--color, var(--white));
+    color: white;
     min-width: var(--width, 40px);
     min-height: var(--height, 40px);
     padding: 5px;
