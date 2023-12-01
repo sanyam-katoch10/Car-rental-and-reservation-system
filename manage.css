@@ -1,0 +1,59 @@
+body, h1, h2, h3, p, ul, li, button {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(170, 159, 240);
+}
+
+header {
+    background-color: rgb(100, 100, 96);
+    color: whitesmoke;
+    text-align: center;
+    padding: 20px;
+}
+footer {
+    text-align: center;
+}
+nav {
+    background-color: rgb(118, 232, 240);
+    color: rgb(155, 196, 173);
+    text-align: center;
+    padding: 10px;
+}
+nav ul {
+    list-style: none;
+}
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.booking-details {
+    margin: 20px;
+    padding: 20px;
+    background-color: rgb(127, 133, 133);
+    border: 1px solid #141414;
+    color:black;
+}
+
+.booking-item {
+    border: 1px solid rgb(23, 26, 20);
+    padding: 10px;
+    margin-bottom: 20px;
+    color:black;
+}
+
+button {
+    background-color: purple;
+    color: whitesmoke;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+button:hover {
+    background-color: blue;
+}

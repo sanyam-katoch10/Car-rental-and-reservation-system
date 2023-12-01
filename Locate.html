@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Let's Find Your Pick Up Location</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="stylesheet" href="locate.css">
+  
+  <link rel="shortcut icon" href="pictures/logo.jpg" type="image/jpeg">
+
+</head>
+<body>
+  <header>
+    <h1>Online Car Booking</h1>
+  </header>
+  <main>
+    <div class="container">
+      <form action="#">
+        <label for="pickup_location">Pickup Location</label>
+        <select name="pickup_location">
+            <option value="">Select</option>  
+            <option value="delhi">Delhi</option>
+            <option value="himachal_pradesh">Himachal Pradesh</option>
+            <option value="haryana">Haryana</option>
+            <option value="punjab">Punjab</option>
+            <option value="other">Other</option>
+        </select>
+  
+        <label for="pickup_date">Pickup Date</label>
+        <input type="date" id="pickup_date">
+        <label for="pickup_time">Pickup Time</label>
+        <input type="time" id="pickup_time">
+        <label for="dropoff_date">Dropoff Date</label>
+        <input type="date" id="dropoff_date">
+        <label for="purpose_of_rental">Purpose of Rental</label>
+        <select name="purpose_of_rental">
+          <option value="">Select</option>  
+          <option value="business_and_leisure">Business & Leisure</option>
+          <option value="personal">Personal</option>
+          <option value="other">Other</option>
+        </select>
+
+        <button type="submit">Search</button>
+      </form>
+    </div>
+  </main>
+  <footer>
+    <p> &copy; King's Car Rental Services 2023-24 </p>
+  </footer>
+</body>
+</html>
